@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <title>Lab Quiz</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Lab Quiz.</a>
+        </header>
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1> Lab Quiz</h1>
+                    <div class="quiz-header">
+                        
+                        <span class="header-score">Score:0/7</span>
+                    </div>
+                    <h2 class="question-text">Em qual país foi criado o primeiro celular?</h2>
+                    <div class="option-list">
+                        <div class="option">
+                            <span> A.Estados Unidos</span>
+                        </div>
+                        <div class="option">
+                            <span> B.China</span>
+                        </div>
+                        <div class="option">
+                            <span> C.Inglaterra</span>
+                        </div>
+                        <div class="option">
+                            <span> D.França</span>
+                        </div>
+                       
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 7 Questions</span>
+                        <button class="next-btn">Proximo</button>
+                    </div>
+                </div>
+                <div class="result-box">
+                    <h2>Resultado do Quiz ! </h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span class="score-text">Você Acertou 0 de 5 questões</span>
+                    </div>
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Jogar Novamente</button>
+                        <button class="goHome-btn">Ir para inicio </button>
+                    </div>
+                </div>
+            </section>
+            <section class="home">
+                <div class="home-content">
+                    <h1>Lab Quiz</h1>
+                    <label>Coloque o seu nome :</label>
+                    <input  class="nome" type="text">
+                    <button class="start-btn">Começar</button>
+                </div>
+            </section> 
+        </div>
+    </main>
+    <div class="popup-info">
+        <h2> Lab Quiz</h2>
+        <span class="info">Vamos Jogar  </span>
+        <span class="info">1. Quiz com perguntas voltadas para a área de tecnologia.</span>
+        <span class="info">2. E o total de perguntas são 5.</span>
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Sair</button>
+            <a href="#" class="info-btn continue-btn">Continuar</a>
+        </div>
+    </div> 
+    <script src="js/questions.js"></script> 
+    <script src="js/script.js"></script>  
+</body>
+</html>
